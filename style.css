@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.areaDeBusca {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #070707;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.actions button {
+  margin-right: 5px;
+}

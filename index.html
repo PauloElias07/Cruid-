@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Painel de Administração</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Administração de Usuários</h1>
+
+    <div class="areaDeBusca">
+      <input type="text" id="searchInput" placeholder="Buscar usuário por nome" />
+      <button id="searchButton">Buscar</button>
+    </div>
+
+    <form id="userForm">
+      <input type="hidden" id="userId" />
+      <input type="text" id="name" placeholder="Nome" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="senha" placeholder="Senha" required />
+      <button type="submit">Salvar</button>
+    </form>
+
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
